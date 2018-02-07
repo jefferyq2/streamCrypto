@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>bigCryptoTest.xcscheme</key>
+		<key>streamCryptoTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F1AB28ED202AF35D00939AFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1AB2905202AF35D00939AFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

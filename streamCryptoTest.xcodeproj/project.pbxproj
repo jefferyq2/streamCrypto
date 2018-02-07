@@ -14,6 +14,21 @@
 		F1AB28FE202AF35D00939AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AB28FC202AF35D00939AFE /* LaunchScreen.storyboard */; };
 		F1AB2901202AF35D00939AFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB2900202AF35D00939AFE /* main.m */; };
 		F1AB290B202AF35D00939AFE /* bigCryptoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB290A202AF35D00939AFE /* bigCryptoTestTests.m */; };
+		F1AB2917202AF3E200939AFE /* QCCAESPadBigCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB2916202AF3E200939AFE /* QCCAESPadBigCryptor.m */; };
+		F1AB291B202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2919202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat */; };
+		F1AB291C202AF6A500939AFE /* plaintext-332.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB291A202AF6A500939AFE /* plaintext-332.dat */; };
+		F1AB291D202AF6FF00939AFE /* cyphertext-aes-128-cbc-332.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2919202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat */; };
+		F1AB291E202AF6FF00939AFE /* plaintext-332.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB291A202AF6A500939AFE /* plaintext-332.dat */; };
+		F1AB2921202AF8B800939AFE /* QCCRSASmallCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB2920202AF8B800939AFE /* QCCRSASmallCryptor.m */; };
+		F1AB2925202AFB8800939AFE /* private.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2922202AFB8800939AFE /* private.p12 */; };
+		F1AB2926202AFB8800939AFE /* private.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2922202AFB8800939AFE /* private.p12 */; };
+		F1AB2927202AFB8800939AFE /* plaintext-32.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2923202AFB8800939AFE /* plaintext-32.dat */; };
+		F1AB2928202AFB8800939AFE /* plaintext-32.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2923202AFB8800939AFE /* plaintext-32.dat */; };
+		F1AB2929202AFB8800939AFE /* test.cer in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2924202AFB8800939AFE /* test.cer */; };
+		F1AB292A202AFB8800939AFE /* test.cer in Resources */ = {isa = PBXBuildFile; fileRef = F1AB2924202AFB8800939AFE /* test.cer */; };
+		F1AB292C202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB292B202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat */; };
+		F1AB292D202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat in Resources */ = {isa = PBXBuildFile; fileRef = F1AB292B202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat */; };
+		F1AB292F202AFDB700939AFE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AB292E202AFDB700939AFE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1AB28EE202AF35D00939AFE /* bigCryptoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigCryptoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AB28EE202AF35D00939AFE /* streamCryptoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamCryptoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AB28F1202AF35D00939AFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1AB28F2202AF35D00939AFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F1AB28F4202AF35D00939AFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -37,9 +52,20 @@
 		F1AB28FD202AF35D00939AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1AB28FF202AF35D00939AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1AB2900202AF35D00939AFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1AB2906202AF35D00939AFE /* bigCryptoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bigCryptoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AB2906202AF35D00939AFE /* streamCryptoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamCryptoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AB290A202AF35D00939AFE /* bigCryptoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bigCryptoTestTests.m; sourceTree = "<group>"; };
 		F1AB290C202AF35D00939AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AB2915202AF3E200939AFE /* QCCAESPadBigCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCAESPadBigCryptor.h; sourceTree = "<group>"; };
+		F1AB2916202AF3E200939AFE /* QCCAESPadBigCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCAESPadBigCryptor.m; sourceTree = "<group>"; };
+		F1AB2919202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cyphertext-aes-128-cbc-332.dat"; sourceTree = "<group>"; };
+		F1AB291A202AF6A500939AFE /* plaintext-332.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "plaintext-332.dat"; sourceTree = "<group>"; };
+		F1AB291F202AF8B800939AFE /* QCCRSASmallCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCRSASmallCryptor.h; sourceTree = "<group>"; };
+		F1AB2920202AF8B800939AFE /* QCCRSASmallCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCRSASmallCryptor.m; sourceTree = "<group>"; };
+		F1AB2922202AFB8800939AFE /* private.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private.p12; sourceTree = "<group>"; };
+		F1AB2923202AFB8800939AFE /* plaintext-32.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "plaintext-32.dat"; sourceTree = "<group>"; };
+		F1AB2924202AFB8800939AFE /* test.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.cer; sourceTree = "<group>"; };
+		F1AB292B202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cyphertext-rsa-pkcs1-32.dat"; sourceTree = "<group>"; };
+		F1AB292E202AFDB700939AFE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +89,9 @@
 		F1AB28E5202AF35D00939AFE = {
 			isa = PBXGroup;
 			children = (
-				F1AB28F0202AF35D00939AFE /* bigCryptoTest */,
-				F1AB2909202AF35D00939AFE /* bigCryptoTestTests */,
+				F1AB292E202AFDB700939AFE /* Default-568h@2x.png */,
+				F1AB28F0202AF35D00939AFE /* streamCryptoTest */,
+				F1AB2909202AF35D00939AFE /* streamCryptoTestTests */,
 				F1AB28EF202AF35D00939AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,15 +99,20 @@
 		F1AB28EF202AF35D00939AFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1AB28EE202AF35D00939AFE /* bigCryptoTest.app */,
-				F1AB2906202AF35D00939AFE /* bigCryptoTestTests.xctest */,
+				F1AB28EE202AF35D00939AFE /* streamCryptoTest.app */,
+				F1AB2906202AF35D00939AFE /* streamCryptoTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1AB28F0202AF35D00939AFE /* bigCryptoTest */ = {
+		F1AB28F0202AF35D00939AFE /* streamCryptoTest */ = {
 			isa = PBXGroup;
 			children = (
+				F1AB2918202AF6A500939AFE /* testdata */,
+				F1AB291F202AF8B800939AFE /* QCCRSASmallCryptor.h */,
+				F1AB2920202AF8B800939AFE /* QCCRSASmallCryptor.m */,
+				F1AB2915202AF3E200939AFE /* QCCAESPadBigCryptor.h */,
+				F1AB2916202AF3E200939AFE /* QCCAESPadBigCryptor.m */,
 				F1AB28F1202AF35D00939AFE /* AppDelegate.h */,
 				F1AB28F2202AF35D00939AFE /* AppDelegate.m */,
 				F1AB28F4202AF35D00939AFE /* ViewController.h */,
@@ -91,24 +123,37 @@
 				F1AB28FF202AF35D00939AFE /* Info.plist */,
 				F1AB2900202AF35D00939AFE /* main.m */,
 			);
-			path = bigCryptoTest;
+			path = streamCryptoTest;
 			sourceTree = "<group>";
 		};
-		F1AB2909202AF35D00939AFE /* bigCryptoTestTests */ = {
+		F1AB2909202AF35D00939AFE /* streamCryptoTestTests */ = {
 			isa = PBXGroup;
 			children = (
 				F1AB290A202AF35D00939AFE /* bigCryptoTestTests.m */,
 				F1AB290C202AF35D00939AFE /* Info.plist */,
 			);
-			path = bigCryptoTestTests;
+			path = streamCryptoTestTests;
+			sourceTree = "<group>";
+		};
+		F1AB2918202AF6A500939AFE /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB292B202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat */,
+				F1AB2923202AFB8800939AFE /* plaintext-32.dat */,
+				F1AB2922202AFB8800939AFE /* private.p12 */,
+				F1AB2924202AFB8800939AFE /* test.cer */,
+				F1AB2919202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat */,
+				F1AB291A202AF6A500939AFE /* plaintext-332.dat */,
+			);
+			path = testdata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1AB28ED202AF35D00939AFE /* bigCryptoTest */ = {
+		F1AB28ED202AF35D00939AFE /* streamCryptoTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1AB290F202AF35D00939AFE /* Build configuration list for PBXNativeTarget "bigCryptoTest" */;
+			buildConfigurationList = F1AB290F202AF35D00939AFE /* Build configuration list for PBXNativeTarget "streamCryptoTest" */;
 			buildPhases = (
 				F1AB28EA202AF35D00939AFE /* Sources */,
 				F1AB28EB202AF35D00939AFE /* Frameworks */,
@@ -118,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = bigCryptoTest;
+			name = streamCryptoTest;
 			productName = bigCryptoTest;
-			productReference = F1AB28EE202AF35D00939AFE /* bigCryptoTest.app */;
+			productReference = F1AB28EE202AF35D00939AFE /* streamCryptoTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1AB2905202AF35D00939AFE /* bigCryptoTestTests */ = {
+		F1AB2905202AF35D00939AFE /* streamCryptoTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1AB2912202AF35D00939AFE /* Build configuration list for PBXNativeTarget "bigCryptoTestTests" */;
+			buildConfigurationList = F1AB2912202AF35D00939AFE /* Build configuration list for PBXNativeTarget "streamCryptoTestTests" */;
 			buildPhases = (
 				F1AB2902202AF35D00939AFE /* Sources */,
 				F1AB2903202AF35D00939AFE /* Frameworks */,
@@ -136,9 +181,9 @@
 			dependencies = (
 				F1AB2908202AF35D00939AFE /* PBXTargetDependency */,
 			);
-			name = bigCryptoTestTests;
+			name = streamCryptoTestTests;
 			productName = bigCryptoTestTests;
-			productReference = F1AB2906202AF35D00939AFE /* bigCryptoTestTests.xctest */;
+			productReference = F1AB2906202AF35D00939AFE /* streamCryptoTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1AB28E9202AF35D00939AFE /* Build configuration list for PBXProject "bigCryptoTest" */;
+			buildConfigurationList = F1AB28E9202AF35D00939AFE /* Build configuration list for PBXProject "streamCryptoTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1AB28ED202AF35D00939AFE /* bigCryptoTest */,
-				F1AB2905202AF35D00939AFE /* bigCryptoTestTests */,
+				F1AB28ED202AF35D00939AFE /* streamCryptoTest */,
+				F1AB2905202AF35D00939AFE /* streamCryptoTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,7 +230,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AB2929202AFB8800939AFE /* test.cer in Resources */,
+				F1AB292C202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat in Resources */,
+				F1AB2927202AFB8800939AFE /* plaintext-32.dat in Resources */,
+				F1AB292F202AFDB700939AFE /* Default-568h@2x.png in Resources */,
+				F1AB291C202AF6A500939AFE /* plaintext-332.dat in Resources */,
+				F1AB2925202AFB8800939AFE /* private.p12 in Resources */,
 				F1AB28FE202AF35D00939AFE /* LaunchScreen.storyboard in Resources */,
+				F1AB291B202AF6A500939AFE /* cyphertext-aes-128-cbc-332.dat in Resources */,
 				F1AB28FB202AF35D00939AFE /* Assets.xcassets in Resources */,
 				F1AB28F9202AF35D00939AFE /* Main.storyboard in Resources */,
 			);
@@ -195,6 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AB291D202AF6FF00939AFE /* cyphertext-aes-128-cbc-332.dat in Resources */,
+				F1AB2926202AFB8800939AFE /* private.p12 in Resources */,
+				F1AB2928202AFB8800939AFE /* plaintext-32.dat in Resources */,
+				F1AB292A202AFB8800939AFE /* test.cer in Resources */,
+				F1AB292D202AFC2800939AFE /* cyphertext-rsa-pkcs1-32.dat in Resources */,
+				F1AB291E202AF6FF00939AFE /* plaintext-332.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +265,9 @@
 			files = (
 				F1AB28F6202AF35D00939AFE /* ViewController.m in Sources */,
 				F1AB2901202AF35D00939AFE /* main.m in Sources */,
+				F1AB2917202AF3E200939AFE /* QCCAESPadBigCryptor.m in Sources */,
 				F1AB28F3202AF35D00939AFE /* AppDelegate.m in Sources */,
+				F1AB2921202AF8B800939AFE /* QCCRSASmallCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		F1AB2908202AF35D00939AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1AB28ED202AF35D00939AFE /* bigCryptoTest */;
+			target = F1AB28ED202AF35D00939AFE /* streamCryptoTest */;
 			targetProxy = F1AB2907202AF35D00939AFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,7 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = bigCryptoTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/streamCryptoTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.bigCryptoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = bigCryptoTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/streamCryptoTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.bigCryptoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,12 +444,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = bigCryptoTestTests/Info.plist;
+				INFOPLIST_FILE = streamCryptoTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.bigCryptoTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.streamCryptoTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bigCryptoTest.app/bigCryptoTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamCryptoTest.app/streamCryptoTest";
 			};
 			name = Debug;
 		};
@@ -398,19 +458,19 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = bigCryptoTestTests/Info.plist;
+				INFOPLIST_FILE = streamCryptoTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.bigCryptoTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.streamCryptoTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bigCryptoTest.app/bigCryptoTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamCryptoTest.app/streamCryptoTest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1AB28E9202AF35D00939AFE /* Build configuration list for PBXProject "bigCryptoTest" */ = {
+		F1AB28E9202AF35D00939AFE /* Build configuration list for PBXProject "streamCryptoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1AB290D202AF35D00939AFE /* Debug */,
@@ -419,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1AB290F202AF35D00939AFE /* Build configuration list for PBXNativeTarget "bigCryptoTest" */ = {
+		F1AB290F202AF35D00939AFE /* Build configuration list for PBXNativeTarget "streamCryptoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1AB2910202AF35D00939AFE /* Debug */,
@@ -428,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1AB2912202AF35D00939AFE /* Build configuration list for PBXNativeTarget "bigCryptoTestTests" */ = {
+		F1AB2912202AF35D00939AFE /* Build configuration list for PBXNativeTarget "streamCryptoTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1AB2913202AF35D00939AFE /* Debug */,
